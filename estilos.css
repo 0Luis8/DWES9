@@ -1,0 +1,44 @@
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231102/pngtree-texture-of-cardboard-boxes-light-brown-packaging-material-image_13722402.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;/* Centra los elementos horizontalmente */
+  padding-top: 3.5%; /* Agrega un espacio en la parte superior del cuerpo */
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center; /* Centra el texto horizontalmente */
+  color: #4b7533;
+  background-color: rgba(229, 144, 83, 0.8);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#boton {
+  width: 200px;
+  height: 150px;
+  background-image: url('etiquetadora.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px; /* Agrega espacio entre el título y el botón */
+  border-radius: 10px;
+}
+
+#tarjeta {
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  font-family: Arial, sans-serif;
+  width: 350px;
+  height: 200px;
+  background-image: url('https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_1280.jpg');
+  background-size: cover;
+  text-align: center;
+  margin-top: 15px; /* Agrega espacio entre el botón y la tarjeta */
+  border-radius: 20px;
+}
+
+
